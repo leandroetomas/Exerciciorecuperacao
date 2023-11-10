@@ -1,1 +1,1 @@
-{Humanoide,Besta,Undead,Demonio}
+ public enum Categorias{Humanoide,Besta,Undead,Demonio}

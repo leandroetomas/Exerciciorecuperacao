@@ -1,1 +1,1 @@
-{Veneno,Fogo,Gelo,Electrecidade}
+ public enum Efeitos{Veneno,Fogo,Gelo,Electrecidade}

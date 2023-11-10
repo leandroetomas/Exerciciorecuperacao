@@ -1,1 +1,1 @@
-{Guerreiros,Mago,Ladrao,Arqueiros}
+ public enum Classes{Guerreiros,Mago,Ladrao,Arqueiros}

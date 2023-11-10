@@ -1,29 +1,50 @@
 using System;
 
-class Program {
-  public static void Main (string[] args) {
-    Console.WriteLine ("Hello World");
-    }
-  ``` enum classeNPC{Guerreiro,Mago,Ladrao,Arqueiro
-    }
-  enum CategoriaNPC{Humanoide,Besta,Undead,Demonio
-    }
-  enum EfeitoNPC{Veneno,Fogo,Gelo,Electricidade
-    }
-   ```
+class Program 
+{
+  public static void Main (string[] args)
+  {  
 
-  ```java
-  import java.util.*;
+      Console.WriteLine("Digite o numero de NPCS:");
+      int numNPCS= Convert.ToInt32(Console.ReadLine());
 
-  public class NPCPerks{public static void main(string[]args){
-    scanner input = new scanner(System.in);
+    Categorias[] deNPCS =  new Categorias[numNPCS];
+     Classes[] deClasses = new Classes[numNPCS];
+    Efeitos[] deEfeitos = new Efeitos[numNPCS];
 
-    system.out.print("Digite o numero de NPCS:");
+      for(int i  = 0; i < numNPCS; i++){
+       Console.WriteLine("NPC"+ (i+1));
+       
+     string input;
+        Console.WriteLine("Escolhe uma Categoria");
+         deNPCS[i]  =(Categorias) Convert.ToInt32(Console.ReadLine());
+        
+        Console.WriteLine("Escolhe uma Classes");
+        deClasses[i] =(Classes) Convert.ToInt32(Console.ReadLine());
+
+        Console.WriteLine("Escolhe um Efeito");
+        deEfeitos[i] =(Efeitos) Convert.ToInt32(Console.ReadLine());
+        
+    }
+    for(int i  = 0; i < numNPCS; i++){
+      Console.WriteLine($"Categoria de NPC {i}={deNPCS[i]}");
+      Console.WriteLine($"Classes de NPC{i}={deClasses[i]}");
+      Console.WriteLine($"Efeitos de NPC{i}={deEfeitos[i]}");
+      
+      
+
+      }
+    
+ 
+
+
+  
+      
+
+    }
     
 
 
 
 
-
-  
-}
+    }
