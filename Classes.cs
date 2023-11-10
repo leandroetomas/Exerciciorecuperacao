@@ -1,0 +1,1 @@
+{Guerreiros,Mago,Ladrao,Arqueiros}

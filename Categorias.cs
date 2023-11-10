@@ -1,0 +1,1 @@
+{Humanoide,Besta,Undead,Demonio}
